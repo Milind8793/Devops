@@ -12,7 +12,7 @@ node {
 	agent any
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-        app= sh 'docker build -t milind8793/edure:latest .'
+         sh 'docker build -t milind8793/edure:latest .'
          /*app
 		 = docker.build("")*/
     }
